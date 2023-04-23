@@ -1,0 +1,5 @@
+{
+    "CodeGPT.model": "text-davinci-003",
+    "CodeGPT.temperature": 0.9,
+    "CodeGPT.maxTokens": 8000
+}
