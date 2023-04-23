@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Adhere = () => {
   return (
-    <div className="flex flex-col lg:flex-row py-[400px] sm:py-[300px] lg:py-10 ">
+    <div className="flex flex-col lg:flex-row pt-[400px] sm:py-[300px] lg:pt-10 ">
       <motion.div 
         className="lg:w-1/2 flex items-center justify-center"
         initial={{ opacity: 0, x: -100 }}

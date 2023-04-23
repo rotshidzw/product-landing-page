@@ -12,7 +12,7 @@ const signin = () => {
     initial={{ x: -100, opacity: 0 }}
     animate={{ x: 0, opacity: 1 }}
     transition={{ duration: 1, delay: 1 }}
-    className="text-4xl md:text-5xl  mb-4 text-white text-left lg:px-[400px] ml-20">
+    className="text-4xl md:text-5xl  mb-4 text-white text-left px-2 lg:px-[400px] md:ml-20">
         Be the First to Know When PWR275 Arrives.
       <span className="ml-8 text-yellow-500">&#8595;</span>
     </motion.h1>
@@ -33,11 +33,11 @@ const signin = () => {
         </button>
     </div>
 </div>
-
-  <motion.h1
+<motion.h1
   initial={{ x: -100, opacity: 0 }}
   animate={{ x: 0, opacity: 1 }}
-  transition={{ duration: 1, delay: 1 }} className="text-4xl md:text-2xl font-bold mb-4 text-white text-center">
+  transition={{ duration: 1, delay: 1 }}
+  className="text-2xl md:text-4xl font-bold mb-4 text-white text-center">
   Connect to PWR.
     <span className="ml-2 text-yellow-500">&#8595;</span>
   </motion.h1>
@@ -45,17 +45,18 @@ const signin = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
           className="flex justify-center">
-    <a href="#" className="mx-8 text-xl underline text-white hover:text-yellow-500">
+    <a href="#" className="mx-4 text-lg md:text-xl underline text-white hover:text-yellow-500">
       INSTAGRAM
     </a>
-    <a href="#" className="mx-8 text-xl underline text-white hover:text-yellow-500">
+    <a href="#" className="mx-4 text-lg md:text-xl underline text-white hover:text-yellow-500">
       FACEBOOK
     </a>
-    <a href="#" className="mx-8 text-xl underline text-white hover:text-yellow-500">
+    <a href="#" className="mx-4 text-lg md:text-xl underline text-white hover:text-yellow-500">
       TWITTER
     </a>
   </motion.div>
 </div>
+
 
 
 

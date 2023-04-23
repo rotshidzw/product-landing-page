@@ -9,7 +9,7 @@ const technology = () => {
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 1.8 }} className="text-xl text-white bg-black text-center md:pr-52">Groundbreaking</motion.div>
-      <div className="text-white text-center md:text-9xl text-6xl font-bold">Technology</div>
+      <div className="text-white text-center md:text-9xl text-5xl font-bold">Technology</div>
     <div className="flex flex-col md:flex-row h-screen">
       <div className="relative w-full md:w-1/2">
         <div className="absolute inset-0">
